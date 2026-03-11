@@ -1,0 +1,12 @@
+# Pinned dependencies for reproducible runs.
+allensdk==2.16.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scipy==1.11.4
+scikit-learn==1.4.2
+jupyterlab==4.2.1
+ipykernel==6.29.5
+tqdm==4.66.4
+xarray==2024.6.0

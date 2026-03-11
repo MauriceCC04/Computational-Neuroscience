@@ -1,0 +1,36 @@
+
+## .gitignore
+
+```gitignore
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- AllenSDK / Neuropixels downloads & caches ---
+# Notebooks commonly use ./allendata (and sometimes ./converted) as the cache root.
+allendata/
+converted/
+data/
+
+# Generated AllenSDK tracking file (often inside cache dirs, but ignore globally too)
+manifest.json
+
+# Large downloaded data artifacts (usually inside cache dirs, but keep these out of git regardless)
+*.nwb
+*.h5
+*.hdf5
+*.tif
+*.tiff
+
+# OS/editor noise
+.DS_Store
+Thumbs.db.DS_Store
